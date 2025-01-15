@@ -1,0 +1,22 @@
+.headerContainer {
+  width: 100%;
+  background: rgb(211 230 230 / 54%);
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 30px;
+  gap: 30px;
+  margin-top: 56px;
+}
+
+.logoutButton {
+  border: none;
+  border-radius: 4px;
+  padding: 8px 10px;
+  cursor: pointer;
+  background: black;
+  color: white;
+}
+
+.logoutButton:hover {
+  background: rgb(72, 70, 70);
+}

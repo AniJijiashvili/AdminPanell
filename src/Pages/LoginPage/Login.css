@@ -1,0 +1,108 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.main-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.card-container {
+  width: 100%;
+  max-width: 448px;
+  padding: 32px 50px;
+  margin: 0 auto;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  background: linear-gradient(180deg, #43606e 0%, #28271c 100%);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.loginHeader {
+  padding-bottom: 20px;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 24px;
+}
+
+.input-container label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #cfd7e6;
+}
+
+.input-container input {
+  width: 300px;
+  padding: 12px 16px;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: #d1d5db;
+  color: #141516;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+}
+
+.LoginButtonDiv {
+  width: 100%;
+  max-width: 300px;
+  padding: 6px 0;
+  text-align: center;
+  border-radius: 4px;
+}
+
+.loginButton {
+  width: 100%;
+  padding: 12px;
+  background: #37657a;
+  border: none;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.loginButton:hover {
+  background: rgb(20, 41, 61);
+}
+.loginButton:disabled {
+  background: #b1b9c4; 
+  color: #6c7a8e; 
+  cursor: not-allowed; 
+}
+@media screen and (max-width: 430px) {
+  .card-container{
+    max-width: 350px;
+    margin: auto;
+
+  }
+  h1{
+    text-align: center;
+    font-size: 24px;
+  }
+  .LoginButtonDiv{
+    max-width: 60%;
+    margin: auto;
+  }
+  
+}
