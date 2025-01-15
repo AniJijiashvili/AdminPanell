@@ -18,9 +18,7 @@ Pages:
         1.	Admin credentials:
            	Email: admin@gmail.com
            	Password: admin123
-
-
-        2.	On successful authentication, the admin is redirected to the UserPage.
+       2.On successful authentication, the admin is redirected to the UserPage.
 
    •	UserPage: This page displays a list of users with details such as name, email, age, and status. It includes:
            o	User data fetched from the dummy data API: https://dummyjson.com/users
